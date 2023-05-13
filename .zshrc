@@ -103,9 +103,9 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-alias aptup='sudo apt update && sudo apt upgrade'
-alias aptin='sudo apt install'
-alias aptrm='sudo apt remove'
+alias dnfup='sudo dnf update && sudo dnf upgrade'
+alias dnfin='sudo dnf install'
+alias dnfrm='sudo dnf remove'
 alias ls='ls -lah --color=auto'
 alias ..='cd ..'
 alias ...='cd ../..'
@@ -115,7 +115,7 @@ alias cp='cp -i'
 alias rm='rm -i'
 alias ln='ln -i'
 alias nv='nvim'
-alias aptclean='sudo apt autoclean && sudo apt autoremove'
+alias dnfclean='sudo dnf autoclean && sudo dnf autoremove'
 alias t='tmux'
 alias lv='lvim'
 export PATH="$HOME/.local/bin":$PATH
