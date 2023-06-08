@@ -103,9 +103,9 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-alias dnfup='sudo dnf update && sudo dnf upgrade'
-alias dnfin='sudo dnf install'
-alias dnfrm='sudo dnf remove'
+alias pacup='sudo pacman -Syu'
+alias pacin='sudo pacman -S'
+alias pacrm='sudo pacman -R'
 alias ls='ls -lah --color=auto'
 alias ..='cd ..'
 alias ...='cd ../..'
