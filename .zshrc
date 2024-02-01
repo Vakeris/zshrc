@@ -117,8 +117,6 @@ alias dnfclean='sudo dnf clean all'
 alias t='tmux'
 alias lv='lvim'
 export PATH="$HOME/.local/bin":$PATH
-alias tl='tmux ls'
-alias ts='t source ~/.tmux.conf '
-alias ta='tmux attach -t'
+
 
 source homevakeris/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
