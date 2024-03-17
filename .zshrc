@@ -101,9 +101,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-alias dnfup='sudo dnf update && sudo dnf upgrade'
-alias dnfin='sudo dnf install'
-alias dnfrm='sudo dnf remove'
+alias dnfup='sudo pacman -Syu'
+alias dnfin='sudo pacman -S'
+alias dnfrm='sudo pacman -R'
 alias ls='ls -lah --color=auto'
 alias ..='cd ..'
 alias ...='cd ../..'
@@ -113,7 +113,7 @@ alias cp='cp -i'
 alias rm='rm -i'
 alias ln='ln -i'
 alias nv='nvim'
-alias dnfclean='sudo dnf clean all'
+alias pacclean='sudo pacman -Scc'
 alias t='tmux'
 alias lv='lvim'
 export PATH="$HOME/.local/bin":$PATH
